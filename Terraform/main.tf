@@ -1,6 +1,7 @@
 provider "azurerm" {
 }
-resource "azurerm_resource_group" "rg" {
-        name = "testResourceGroup"
-        location = "westus"
+
+resource "azurerm_resource_group" "test" {
+  name     = "acctestRG1"
+  location = "East US"
 }
