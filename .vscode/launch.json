@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Rush.Todo.Api/bin/Debug/netcoreapp2.2/Rush.Todo.Api.dll",
+            "program": "${workspaceFolder}/src/rush.todo.api/bin/Debug/netcoreapp2.2/rush.todo.api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Rush.Todo.Api",
+            "cwd": "${workspaceFolder}/src/rush.todo.api",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {

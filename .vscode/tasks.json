@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Rush.Todo.Api/Rush.Todo.Api.csproj"
+                "${workspaceFolder}/src/rush.todo.api/rush.todo.api.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Rush.Todo.Api/Rush.Todo.Api.csproj"
+                "${workspaceFolder}/src/rush.todo.api/rush.todo.api.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Rush.Todo.Api/Rush.Todo.Api.csproj"
+                "${workspaceFolder}/src/rush.todo.api/rush.todo.api.csproj"
             ],
             "problemMatcher": "$tsc"
         }

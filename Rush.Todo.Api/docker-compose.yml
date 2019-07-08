@@ -1,9 +1,0 @@
-version: '3'
-
-services:
-  rushtodoapi-2-2:
-    image: rushtodoapi-sdk-2-2
-    build:
-      context: .
-    ports:
-      - "10000:80"
