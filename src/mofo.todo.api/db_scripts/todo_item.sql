@@ -1,0 +1,14 @@
+USE db_rush_todo
+GO
+ 
+CREATE TABLE TODO_ITEM
+(
+	Id UNIQUEIDENTIFIER PRIMARY KEY default NEWID(),
+	Title VARCHAR (200),
+	Status CHAR(1)
+)
+GO
+ 
+INSERT INTO TODO_ITEM VALUES (default,'Todo Item 1')
+INSERT INTO TODO_ITEM VALUES (default,'Todo Item 2')
+INSERT INTO TODO_ITEM VALUES (default,'Todo Item 3')
