@@ -1,4 +1,4 @@
-using mofo.todo.Common.Commands;
+using NServiceBus;
 
 namespace mofo.todo.Core.Domain.Todos
 {

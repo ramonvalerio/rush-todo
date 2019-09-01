@@ -1,6 +1,5 @@
-﻿namespace mofo.todo.Common.Commands
+﻿namespace mofo.todo.common.Commands
 {
-    // Marker Interface
     public interface ICommand
     {
 

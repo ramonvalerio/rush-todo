@@ -1,4 +1,4 @@
-﻿using mofo.todo.common;
+﻿using mofo.todo.core.domain;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

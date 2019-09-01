@@ -1,4 +1,4 @@
-﻿using mofo.todo.common.Events;
+﻿using NServiceBus;
 
 namespace mofo.todo.Core.Events
 {
