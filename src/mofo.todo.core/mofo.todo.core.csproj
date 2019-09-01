@@ -8,6 +8,7 @@
     <PackageReference Include="Autofac" Version="4.9.2" />
     <PackageReference Include="Dapper" Version="1.60.6" />
     <PackageReference Include="NServiceBus" Version="7.1.10" />
+    <PackageReference Include="NServiceBus.NHibernate" Version="8.2.0" />
     <PackageReference Include="NServiceBus.RabbitMQ" Version="5.1.2" />
     <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
     <PackageReference Include="ServiceControl.Plugin.Nsb6.SagaAudit" Version="3.0.2" />
