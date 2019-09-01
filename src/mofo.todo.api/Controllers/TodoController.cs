@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using mofo.todo.core.Application;
+using mofo.todo.Core.Domain.Todos;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace mofo.todo.Api.Controllers
@@ -17,9 +19,16 @@ namespace mofo.todo.Api.Controllers
 
         // GET: api/Todo
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public IActionResult Get()
         {
-            return  Ok(await _todoAppService.GetAllAsync());
+            //return  Ok(await _todoAppService.GetAllAsyncreturn Accepted();
+            var result = new List<TodoItem>();
+            result.Add(new TodoItem("A", "Done"));
+            result.Add(new TodoItem("B", "In Progress"));
+            result.Add(new TodoItem("C", "In Progress"));
+            result.Add(new TodoItem("D", "Waiting"));
+
+            return Ok(result);
         }
 
         // GET: api/Todo/5
