@@ -13,7 +13,7 @@ namespace mofo.todo.core.Infrastructure.DbContexts
 
         public DapperContext()
         {
-            _connectionString = @"Server=db;Database=master;User=sa;Password=rush@123;";
+            _connectionString = @"Server=db;Database=master;User=sa;Password=mofo@123;";
         }
 
         public async Task<IEnumerable<T>> ExecuteManyAsync<T>(string sql) where T : AggregateRoot
